@@ -1,5 +1,5 @@
 bg = document.getElementById('loading_bg'),
-loading = document.getElementById('loading');
+  loading = document.getElementById('loading');
 
 window.addEventListener('load', stopload);
 
