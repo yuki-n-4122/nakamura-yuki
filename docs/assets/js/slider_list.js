@@ -4,9 +4,6 @@ var swiper = new Swiper('.swiper-container_list', {
   loop: true,
   spaceBetween: 0,
   freeMode: true,
-  preloadImages: false,
-  lazy: true,
-  watchSlidesVisibility: true,
   speed: 1000,
   autoplay: {
     delay: 6000,
