@@ -1,0 +1,31 @@
+.work {
+  margin-bottom: 15px;
+}
+
+.work_image_wrap {
+  overflow: hidden;
+}
+
+.work_image {
+  width: 100%;
+  transition: all 0.6s ease;
+}
+
+.work_image:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 767px) {
+  .work.col-md-3 {
+    flex-basis: 31%;
+    max-width: 31%;
+  }
+
+  .work {
+    margin-bottom: 50px;
+  }
+
+  .work_lowest_pc {
+    margin-bottom: 0px;
+  }
+}

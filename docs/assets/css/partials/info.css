@@ -1,0 +1,30 @@
+.info {
+  padding: 30px 0;
+  border-top: 2px solid #000;
+}
+
+.info:last-child {
+  border-bottom: 2px solid #000;
+}
+
+.info_date {
+  margin: 0 0 15px 0;
+}
+
+.info_title {
+  margin: 0 0 15px 0;
+  font-weight: 600;
+}
+
+.info_body {
+  text-align: justify;
+}
+
+.info_body a {
+  color: #0033cc;
+  text-decoration: underline;
+}
+
+.info_body a:hover {
+  color: #001a69;
+}

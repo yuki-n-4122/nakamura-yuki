@@ -1,0 +1,14 @@
+footer {
+  padding: 80px 0;
+}
+
+.copyright span {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 60px 0;
+  }
+}

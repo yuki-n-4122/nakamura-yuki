@@ -1,0 +1,51 @@
+header {
+  margin: 60px 0;
+}
+
+.header_name_en {
+  font-size: 36px;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+.header_subtitle {
+  margin: 8px 0 0 0;
+  font-size: 0px;
+}
+
+.header_job {
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  margin: 0 8px 0 0;
+}
+
+.header_name_ja {
+  font-size: 15px;
+  margin: 0 0 0 8px;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    margin: 30px 0;
+  }
+
+  .header_name_en {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  .header_subtitle {
+    margin: 4px 0 0 0;
+  }
+
+  .header_job {
+    font-size: 12px;
+    letter-spacing: 1.1px;
+    margin: 0 4px 0 0;
+  }
+
+  .header_name_ja {
+    font-size: 12px;
+    margin: 0 0 0 4px;
+  }
+}

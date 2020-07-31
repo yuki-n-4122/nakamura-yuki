@@ -1,0 +1,8 @@
+.swiper-container_list {
+  position: relative;
+  width: 100%;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}

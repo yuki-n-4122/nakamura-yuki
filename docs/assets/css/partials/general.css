@@ -1,0 +1,124 @@
+html {
+  background-color: #fafafa;
+  scroll-behavior: smooth;
+}
+
+h1, p {
+  margin: 0;
+}
+
+p {
+  line-height: 1.8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'DM Sans', 'Helvetica Neue', Helvetica, '游ゴシック', YuGothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+a {
+  color: #000;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #555;
+}
+
+.wrap {
+  max-width: 1024px;
+}
+
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+table {
+  font-size: 15px;
+  font-weight: 400;
+  border-spacing: 0;
+  width: 100%;
+  vertical-align: top;
+}
+
+table th {
+  width: 120px;
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+
+.section {
+  padding: 100px 0 0 0;
+}
+
+.title {
+  margin: 0 0 50px;
+}
+
+.title_name {
+  font-size: 21px;
+  letter-spacing: 1.5px;
+}
+
+.title_description {
+  margin: 8px 0 0 0;
+}
+
+.display_sp {
+  display: none;
+}
+
+.display_pc {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .section {
+    padding: 60px 0 0 0;
+  }
+
+  .display_sp {
+    display: block;
+  }
+
+  .display_pc {
+    display: none;
+  }
+
+  table th {
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .pr_pc {
+    padding-right: 30px;
+  }
+
+  .pl_pc {
+    padding-left: 30px;
+  }
+}

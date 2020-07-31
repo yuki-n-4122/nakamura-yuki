@@ -1,0 +1,24 @@
+.swiper-container_top .swiper-slide img {
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  opacity: 1;
+  background: #fff;
+  margin: 0 7px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000;
+}
+
+@media screen and (max-width:767px) {
+  .swiper-container_top .swiper-slide img {
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    display: block;
+  }
+}
