@@ -6,12 +6,12 @@
   margin-top: 50px;
 }
 
-.single_concept {
-  margin-right: 15px;
-}
-
 .single_body {
   text-align: justify;
+}
+
+.single_concept {
+  margin-right: 15px;
 }
 
 .single_caption {
