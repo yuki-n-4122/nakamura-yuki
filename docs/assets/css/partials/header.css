@@ -4,7 +4,7 @@ header {
 
 .header_name_en {
   font-size: 36px;
-  letter-spacing: 6px;
+  letter-spacing: 7px;
   font-weight: 500;
 }
 
@@ -15,7 +15,7 @@ header {
 
 .header_job {
   font-size: 15px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.5px;
   margin: 0 8px 0 0;
 }
 
@@ -40,7 +40,7 @@ header {
 
   .header_job {
     font-size: 12px;
-    letter-spacing: 1.1px;
+    letter-spacing: 1.3px;
     margin: 0 4px 0 0;
   }
 
