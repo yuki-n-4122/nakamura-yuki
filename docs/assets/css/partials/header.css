@@ -4,8 +4,8 @@ header {
 
 .header_name_en {
   font-size: 36px;
-  letter-spacing: 5px;
-  font-weight: 600;
+  letter-spacing: 6px;
+  font-weight: 500;
 }
 
 .header_subtitle {
@@ -31,7 +31,7 @@ header {
 
   .header_name_en {
     font-size: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
   }
 
   .header_subtitle {
