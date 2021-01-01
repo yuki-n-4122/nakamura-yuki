@@ -14,11 +14,68 @@
   background: #000;
 }
 
+.topview_wrap {
+  position: relative;
+}
+
+.topview_label_text {
+  width: 180px;
+  position: absolute;
+  bottom: -30px;
+  right: 7%;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  z-index: 2;
+}
+
+.topview_label {
+  position: absolute;
+  z-index: 1;
+  bottom: -80px;
+  right: 7%;
+}
+
+.topview_label svg {
+  animation: rotate 15s linear infinite;
+  width: 180px;
+  height: 180px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (max-width:767px) {
   .swiper-container_top .swiper-slide img {
     height: 300px;
     overflow: hidden;
     object-fit: cover;
     display: block;
+  }
+
+  .topview_label_text {
+    width: 110px;
+    position: absolute;
+    bottom: -30px;
+    right: 5%;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .topview_label {
+    bottom: -60px;
+    right: 5%;
+  }
+
+  .topview_label svg {
+    width: 110px;
+    height: 110px;
   }
 }
