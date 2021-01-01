@@ -61,21 +61,20 @@
   }
 
   .topview_label_text {
-    width: 110px;
-    position: absolute;
-    bottom: -30px;
+    width: 100px;
+    bottom: -15px;
     right: 5%;
     font-size: 10px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
   }
 
   .topview_label {
-    bottom: -60px;
+    bottom: -40px;
     right: 5%;
   }
 
   .topview_label svg {
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
   }
 }
