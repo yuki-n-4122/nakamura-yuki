@@ -5,12 +5,16 @@ header {
 .header_name_en {
   font-size: 21px;
   letter-spacing: 7px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 767px) {
   header {
     margin: 30px 0;
+  }
+
+  .header_name_en {
+    line-height: 1.5
   }
 
 }
