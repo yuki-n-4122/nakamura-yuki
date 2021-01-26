@@ -1,5 +1,5 @@
 html {
-  background-color: #fcfcfc;
+  background-color: #ffffff;
   scroll-behavior: smooth;
 }
 
@@ -76,6 +76,7 @@ table th {
 .title_name {
   font-size: 21px;
   letter-spacing: 2px;
+  font-weight: 500;
 }
 
 .title_description {
