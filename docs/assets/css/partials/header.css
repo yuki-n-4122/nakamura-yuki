@@ -3,6 +3,7 @@ header {
 }
 
 .header_name_en {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, '游ゴシック', YuGothic, sans-serif;
   font-size: 21px;
   letter-spacing: 6px;
   font-weight: 600;
@@ -14,7 +15,6 @@ header {
   }
 
   .header_name_en {
-    font-family: 'Raleway', 'Helvetica Neue', Helvetica, '游ゴシック', YuGothic, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: 6px;
