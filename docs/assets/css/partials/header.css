@@ -1,12 +1,28 @@
 header {
   margin: 60px 0;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, '游ゴシック', YuGothic, sans-serif;
 }
 
 .header_name_en {
-  font-family: 'Raleway', 'Helvetica Neue', Helvetica, '游ゴシック', YuGothic, sans-serif;
-  font-size: 21px;
-  letter-spacing: 6px;
+  font-size: 36px;
+  letter-spacing: 7px;
   font-weight: 600;
+}
+
+.header_subtitle {
+  margin: 8px 0 0 0;
+  font-size: 0px;
+}
+
+.header_job {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin: 0 8px 0 0;
+}
+
+.header_name_ja {
+  font-size: 15px;
+  margin: 0 0 0 8px;
 }
 
 @media screen and (max-width: 767px) {
@@ -15,9 +31,22 @@ header {
   }
 
   .header_name_en {
-    font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: 6px;
+    font-size: 24px;
+    letter-spacing: 4px;
   }
 
+  .header_subtitle {
+    margin: 4px 0 0 0;
+  }
+
+  .header_job {
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    margin: 0 4px 0 0;
+  }
+
+  .header_name_ja {
+    font-size: 12px;
+    margin: 0 0 0 4px;
+  }
 }
