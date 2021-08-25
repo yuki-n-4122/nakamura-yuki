@@ -34,14 +34,35 @@
   fill: #555;
 }
 
+.behance_icon {
+  width: 28px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.behance_icon_parts {
+  transition: all 0.3s ease;
+}
+
+.link:hover .behance_icon_parts {
+  fill: #555;
+}
+
 @media screen and (max-width: 767px) {
   .link {
     margin-bottom: 15px;
   }
+
   .link a {
     font-size: 12px
   }
+
   .instagram_icon {
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .behance_icon {
     width: 20px;
     margin-right: 5px;
   }
