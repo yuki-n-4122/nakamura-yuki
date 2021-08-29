@@ -6,3 +6,7 @@
 .swiper-slide {
   overflow: hidden;
 }
+
+.swiper-button-white {
+  color: #fff;
+}
