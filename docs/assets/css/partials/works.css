@@ -17,8 +17,8 @@
 
 @media screen and (min-width: 767px) {
   .work.col-md-4 {
-    flex-basis: 46%;
-    max-width: 46%;
+    flex-basis: 48.5%;
+    max-width: 48.5%;
   }
 
   .work {

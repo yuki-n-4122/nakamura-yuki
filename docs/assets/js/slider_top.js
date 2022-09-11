@@ -1,15 +1,10 @@
 var swiper = new Swiper('.swiper-container_top', {
-  slidesPerView: 1,
-  spaceBetween: 0,
+  effect: 'fade',
+  speed: 1000,
   loop: true,
   autoplay: {
-    delay: 8000,
+    delay: 8x000,
     disableOnInteraction: false
-  },
-  breakpoints: {
-    767: {
-      slidesPerView: 2,
-    }
   },
   pagination: {
     el: '.swiper-pagination',
