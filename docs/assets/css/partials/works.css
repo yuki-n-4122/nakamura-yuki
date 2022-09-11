@@ -16,10 +16,10 @@
 }
 
 @media screen and (min-width: 767px) {
-  .work.col-md-3 {
+  /* .work.col-md-3 {
     flex-basis: 31%;
     max-width: 31%;
-  }
+  } */
 
   .work {
     margin-bottom: 50px;
