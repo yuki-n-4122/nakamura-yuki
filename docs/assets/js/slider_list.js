@@ -19,8 +19,5 @@ var swiper = new Swiper('.swiper-container_list', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  },
-  zoom: {
-    maxRatio: 5,
   }
 });
