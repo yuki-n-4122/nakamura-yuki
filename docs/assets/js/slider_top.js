@@ -1,10 +1,9 @@
 var swiper = new Swiper('.swiper-container_top', {
   slidesPerView: 1,
   spaceBetween: 0,
-  speed: 1000,
   loop: true,
   autoplay: {
-    delay: 6000,
+    delay: 8000,
     disableOnInteraction: false
   },
   breakpoints: {
