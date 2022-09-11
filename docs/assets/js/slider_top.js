@@ -7,7 +7,6 @@ var swiper = new Swiper('.swiper-container_top', {
     delay: 6000,
     disableOnInteraction: false
   },
-  direction: "vertical",
   pagination: {
     el: '.swiper-pagination',
     clickable: true
