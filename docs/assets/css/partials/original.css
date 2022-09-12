@@ -1,10 +1,5 @@
-.swiper-container_list {
-  position: relative;
+.swiper-container_list .swiper-slide img {
   width: 100%;
-}
-
-.swiper-slide {
-  overflow: hidden;
 }
 
 .swiper-button-white {
