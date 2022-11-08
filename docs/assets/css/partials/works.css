@@ -2,6 +2,10 @@
   margin-bottom: 15px;
 }
 
+.work_lowest {
+  margin-bottom: 0px !important;
+}
+
 .work_image_wrap {
   overflow: hidden;
 }
@@ -25,7 +29,4 @@
     margin-bottom: 50px;
   }
 
-  .work_lowest_pc {
-    margin-bottom: 0px;
-  }
 }
