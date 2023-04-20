@@ -83,6 +83,10 @@ table th {
   margin: 8px 0 0 0;
 }
 
+.title_description a {
+  text-decoration: underline;
+}
+
 .display_sp {
   display: none;
 }
